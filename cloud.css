@@ -1,0 +1,131 @@
+body {
+    background-image:  linear-gradient(to bottom, #2074F3, #e8f1fd);
+    color: #2074F3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-repeat: no-repeat;
+}
+header {
+    background-image: url(images/headers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 700%;
+    color: #2074F3;
+}
+nav  {
+    float: left;
+    font-weight: bold;
+    font-size: 120%;
+    padding: .25em;
+    width: 150px
+}
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    transition: 3s linear;
+}
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    Background-color: #87C4EC;
+}
+#column1 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    padding-left: 15em;
+}
+h2 {
+    font-weight: bold;
+}
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.center {
+    display: block;
+    margin-right: 400px;
+}
+Table {
+    border: 2px solid #123ABC;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 2em;
+    border: 2px solid #123ABC;
+}
+td {
+    text-align: center;
+    font-style: italic;
+    padding: 1.5em;
+}
+tr:nth-of-type(odd) {
+    background-color: #7BBAD8;
+}
+.text {
+    text-align: center;
+    color: #123ABC;
+}
+.text1 {
+    color: #123ABC;
+}
+.text2 {
+   color: #0C2883;
+   padding-bottom: 1em;
+}
+.p {
+    padding-bottom: 6em;
+}
+.padding {
+    margin-top: 15em;
+}
+form {
+    color: #123ABC;
+}
+input, textarea, select {
+    display: block;
+    margin-bottom: 9px;
+    margin-left: 12em;
+}
+label {
+    display: block;
+    margin-left: 8em;
+    margin-bottom: 13px
+}
+input[type="submit"] {
+    margin-top: 20px;
+    padding-right: 10px;
+}
+nav a:link {
+    color: #070662;
+}
+nav a:visited {
+    color: #87C4EC;
+}
+nav a:hover {
+    color: #A175E8;
+}
+header a:link {
+    color: #2074F3;
+}
+header a:visited {
+    color: #070662;
+}
+header a:hover {
+    color: #A175E8;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Cloud Airlines | Book A Flight</title>
+		<meta charset="utf-8">
+		<link href="cloud.css" rel="stylesheet">
+	</head>
+<body>
+	<header>
+		<h1><a href="index.html">Cloud Airlines</a></h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="flights.html">Flights</a></li>
+			<li><a href="tickets.html">Tickets</a></li>
+		</ul>
+	</nav>
+    <h2 class="text1">Purchase your tickets here!</h2>
+    <p class="text2">Required fields are marked with an asterisk *</p>
+    <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+        <label for="my_Fname">* First Name:</label>
+        <input type="text" name="my_Fname" id="my_Fname" required="required">
+        <label for="my_LName">* Last Name:</label>
+        <input type="text" name="my_Lname" id="my_LName" required="required">
+        <label for="my_EMail">* E-Mail:</label>
+        <input type="email" name="my_EMail" id="my_EMail" required="required">
+        <label for="my_Phone">* Phone:</label>
+        <input type="tel" name="my_Phone" id="my_Phone" maxlength="12" required="required">
+        <label for="traveling_From">* Traveling from:</label>
+        <input type="text" name="traveling_From" id="traveling_From" required="required">
+        <label for="traveling_To">* Traveling to:</label>
+        <input type="text" name="traveling_To" id="traveling_To" required="required">
+        <label for="Departure">* Depart date:</label>
+        <input type="date" name="Depature" id="Departure" required="required">
+        <label for="Arrival">* Arrival date:</label>
+        <input type="date" name="Arrival" id="Arrival" required="required">
+        <label for="Class">* Choose seating type: </label>
+        <select name="Class" id="Class">
+            <option value="General">General</option>
+            <option value="Economy">Economy</option>
+            <option value="PremiumEconomy">Premium Economy</option>
+            <option value="FirstClass">First Class</option>
+        </select>
+        <label for="Adults">* Adults:</label>
+        <input type="number" name="Adults" id="Adults" required="required" min="1" max="10">
+        <label for="Children">* Children:</label>
+        <input type="number" name="Children" id="Children" required="required" min="0" max="6">
+        <label for="Infants">* Infants:</label>
+        <input type="number" name="Infants" id="Infants" required="required" min="0" max="3">
+        <input type="submit" id="mySubmit">
+    </form>
+<footer>
+        Copyright &copy; 2022 Cloud Airlines<br>
+        <a href="mailto:sebastian.gonzalez6629@davistech.edu">contact us</a>
+</footer>
+</body>
